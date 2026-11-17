@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="fa" dir="rtl" data-type="product">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="description" content="نمونهٔ نمایشی صفحهٔ محصول فارسی برای آزمایش افزونهٔ دیزاین‌یار در Codex.">
+  <meta name="theme-color" content="#f5f2e9">
+  <title>تی‌شرت روزمره | نمونهٔ فروشگاه برای آزمایش DZDesign</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">رفتن به محتوای اصلی</a>
+  <header class="site-header">
+    <a class="wordmark" href="#" aria-label="خانهٔ فروشگاه نمونه">نخ‌نو<span>®</span></a>
+    <nav class="main-nav" aria-label="منوی اصلی">
+      <a href="#product">محصول</a>
+      <a href="#details">جزئیات</a>
+      <a href="#shipping">ارسال و بازگشت</a>
+    </nav>
+    <button class="bag-button" type="button" aria-label="سبد خرید، ۰ کالا">
+      سبد خرید <span class="bag-count" aria-live="polite">۰</span>
+    </button>
+  </header>
+
+  <main id="main">
+    <p class="eyebrow page-note">نمونهٔ آزمایشی برای Codex · پرداخت واقعی ندارد</p>
+    <div class="breadcrumbs" aria-label="مسیر صفحه">
+      <a href="#">خانه</a><span aria-hidden="true">/</span><a href="#">پوشاک</a><span aria-hidden="true">/</span><span>تی‌شرت</span>
+    </div>
+
+    <section class="product" id="product" aria-labelledby="product-title">
+      <div class="product-visual">
+        <div class="photo-placeholder" role="img" aria-label="تصویر گرافیکی نمونه از تی‌شرت سبز">
+          <span class="visual-label">تصویر نمونه</span>
+          <svg class="tee" viewBox="0 0 420 460" aria-hidden="true">
+            <path d="M122 42 175 20h70l53 22 83 57-43 70-48-29v274H130V140l-48 29-43-70 83-57Z" fill="currentColor"/>
+            <path d="M175 20c2 32 14 50 35 50s33-18 35-50" fill="none" stroke="#f5f2e9" stroke-width="10"/>
+            <path d="M131 140v274m159-274v274" stroke="#ffffff" stroke-opacity=".22" stroke-width="3"/>
+          </svg>
+          <span class="image-caption">جایگزین تصویر واقعی محصول</span>
+        </div>
+        <div class="thumbnail-row" aria-label="تصاویر محصول">
+          <button class="thumbnail is-active" type="button" aria-label="نمای جلوی تی‌شرت" aria-pressed="true"><span class="mini-tee"></span></button>
+          <button class="thumbnail" type="button" aria-label="نمای نزدیک پارچه" aria-pressed="false"><span class="fabric-swatch"></span></button>
+          <button class="thumbnail" type="button" aria-label="نمای پشت تی‌شرت" aria-pressed="false"><span class="back-tee"></span></button>
+        </div>
+      </div>
+
+      <div class="product-info">
+        <p class="eyebrow">کالکشن روزمره · کد محصول NN-104</p>
+        <h1 id="product-title">تی‌شرت پنبه‌ای «خط سبز»</h1>
+        <p class="lede">یک تی‌شرت ساده برای استفادهٔ روزانه؛ انتخاب رنگ و سایز را امتحان کن. این اطلاعات فقط برای نمونهٔ نمایشی است.</p>
+        <div class="price-row"><strong class="price">۱٬۴۹۰٬۰۰۰</strong><span>تومان</span><s>۱٬۶۹۰٬۰۰۰</s></div>
+
+        <fieldset class="choice-group">
+          <legend>رنگ: <span id="selected-color">انتخاب نشده</span></legend>
+          <div class="swatches">
+            <button class="swatch" type="button" data-color="سبز زیتونی" aria-label="رنگ سبز زیتونی" aria-pressed="false"><span class="swatch-dot olive"></span></button>
+            <button class="swatch" type="button" data-color="شیری" aria-label="رنگ شیری" aria-pressed="false"><span class="swatch-dot cream"></span></button>
+            <button class="swatch" type="button" data-color="آجری" aria-label="رنگ آجری" aria-pressed="false"><span class="swatch-dot clay"></span></button>
+          </div>
+        </fieldset>
+
+        <fieldset class="choice-group size-group">
+          <legend>سایز: <span id="selected-size">انتخاب نشده</span></legend>
+          <div class="sizes">
+            <button type="button" data-size="S" aria-pressed="false">S</button>
+            <button type="button" data-size="M" aria-pressed="false">M</button>
+            <button type="button" data-size="L" aria-pressed="false">L</button>
+            <button type="button" data-size="XL" aria-pressed="false">XL</button>
+          </div>
+          <a class="size-guide" href="#details">راهنمای سایز</a>
+        </fieldset>
+
+        <div class="purchase-row">
+          <div class="quantity" role="group" aria-label="تعداد">
+            <button type="button" data-quantity="minus" aria-label="کم کردن تعداد">−</button>
+            <output id="quantity" aria-live="polite">۱</output>
+            <button type="button" data-quantity="plus" aria-label="زیاد کردن تعداد">+</button>
+          </div>
+          <button class="add-button" type="button">افزودن به سبد خرید</button>
+        </div>
+        <p class="form-message" id="form-message" role="status" aria-live="polite"></p>
+        <ul class="trust-list" aria-label="خدمات فروشگاه نمونه">
+          <li>ارسال نمونه‌ای ۲ تا ۴ روز کاری</li>
+          <li>امکان بازگشت تا ۷ روز</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="details" id="details" aria-labelledby="details-title">
+      <div><p class="eyebrow">جزئیات محصول</p><h2 id="details-title">راحتی برای هر روز</h2></div>
+      <p>این یک صفحهٔ تمرینی است تا Codex بتواند چیدمان، دسترس‌پذیری، واکنش‌گرایی و رفتار کنترل‌های فروشگاهی را بررسی کند. نام برند، قیمت، جنس و زمان ارسال ساختگی‌اند؛ برای فروش واقعی باید با اطلاعات تأییدشده جایگزین شوند.</p>
+      <a class="text-link" href="#shipping">اطلاعات ارسال را ببینید <span aria-hidden="true">←</span></a>
+    </section>
+    <section class="shipping" id="shipping" aria-labelledby="shipping-title">
+      <p class="eyebrow">پیش از خرید</p><h2 id="shipping-title">ارسال و بازگشت</h2>
+      <p>جزئیات این بخش نمونه هستند. در سایت واقعی، روش ارسال، هزینه، محدودهٔ خدمات و شرایط بازگشت باید دقیق و به‌روز باشند.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer"><span>نخ‌نو · فروشگاه نمایشی</span><span>برای تمرین طراحی، نه خرید واقعی</span></footer>
+</body>
+</html>
