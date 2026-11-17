@@ -1,0 +1,2 @@
+# DZDesign development
+This is a Codex-only integration maintained by DigiZorg. Keep original upstream attribution and pinned source hashes. No other-agent configuration directories, credentials, customer content or automatic hooks may be packaged. Keep README claims aligned with verified checks. Test dependency preparation without executing third-party code automatically. Changes to dependencies require reviewing the source and refreshing its archive checksum. Use project-local caches and normal Git revert commits for rollback.

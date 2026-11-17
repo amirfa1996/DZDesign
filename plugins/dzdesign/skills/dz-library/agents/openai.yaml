@@ -1,0 +1,5 @@
+interface:
+  display_name: "Dz Library"
+  short_description: "Use Awesome DESIGN.md as a design-system reference for a named brand or a requested visual dire"
+policy:
+  products: [CODEX]

@@ -1,0 +1,5 @@
+interface:
+  display_name: "Dz Taste"
+  short_description: "Build a distinctive frontend or redesign a generic page in Codex using the pinned Taste design "
+policy:
+  products: [CODEX]

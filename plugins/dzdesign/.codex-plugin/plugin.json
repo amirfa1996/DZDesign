@@ -1,0 +1,40 @@
+{
+  "name": "dzdesign",
+  "version": "0.1.0",
+  "description": "Codex-only design and verification toolkit curated by DigiZorg.",
+  "author": {
+    "name": "DigiZorg",
+    "url": "https://github.com/amirfa1996"
+  },
+  "homepage": "https://github.com/amirfa1996/DZDesign",
+  "repository": "https://github.com/amirfa1996/DZDesign",
+  "license": "MIT",
+  "keywords": [
+    "codex",
+    "design",
+    "frontend",
+    "playwright",
+    "threejs",
+    "digizorg"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "DZDesign",
+    "shortDescription": "Design, refine, test in Codex",
+    "longDescription": "DigiZorg’s Codex-only design toolkit: distinctive frontend design, interface refinement, browser checks, design-system references and procedural image-to-3D workflows.",
+    "developerName": "DigiZorg",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Build a distinctive page with DZDesign.",
+      "Review and polish this interface with DZDesign.",
+      "Test this local page with DZDesign."
+    ],
+    "brandColor": "#087F72",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg"
+  }
+}

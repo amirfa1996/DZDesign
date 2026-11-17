@@ -1,0 +1,5 @@
+interface:
+  display_name: "Dz Polish"
+  short_description: "Critique, refine, polish or audit an existing interface in Codex using Impeccable playbooks and"
+policy:
+  products: [CODEX]

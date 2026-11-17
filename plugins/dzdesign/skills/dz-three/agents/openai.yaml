@@ -1,0 +1,5 @@
+interface:
+  display_name: "Dz Three"
+  short_description: "Reconstruct an object in a reference image as a procedural, animation-ready Three.js model in C"
+policy:
+  products: [CODEX]

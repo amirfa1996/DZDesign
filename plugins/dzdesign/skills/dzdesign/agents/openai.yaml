@@ -1,0 +1,5 @@
+interface:
+  display_name: "DZDesign"
+  short_description: "Coordinate a Codex design task using DZDesign: choose a visual direction, refine an existing in"
+policy:
+  products: [CODEX]

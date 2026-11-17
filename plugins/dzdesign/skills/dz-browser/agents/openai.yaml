@@ -1,0 +1,5 @@
+interface:
+  display_name: "Dz Browser"
+  short_description: "Test a local website or perform authorized browser interactions from Codex using Playwright CLI"
+policy:
+  products: [CODEX]

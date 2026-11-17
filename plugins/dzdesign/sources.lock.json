@@ -1,0 +1,44 @@
+{
+  "format": 1,
+  "components": {
+    "taste": {
+      "repository": "Leonxlnx/taste-skill",
+      "commit": "f6b76575f949707b4e3c37cd86cb44b0b98643e8",
+      "archive": "https://codeload.github.com/Leonxlnx/taste-skill/zip/f6b76575f949707b4e3c37cd86cb44b0b98643e8",
+      "sha256": "7aa411cfc2785030df89cf6527c266434025968399ad82ddf3931cd893f36a64",
+      "license": "MIT"
+    },
+    "impeccable": {
+      "repository": "pbakaus/impeccable",
+      "commit": "d41d9860b0094dcb68030657da63461212835aaa",
+      "archive": "https://codeload.github.com/pbakaus/impeccable/zip/d41d9860b0094dcb68030657da63461212835aaa",
+      "sha256": "27b6ef3ff9f6946c3f69f3d06cdfd59360590af21d64e6e7a954d115979e18e4",
+      "license": "Apache-2.0"
+    },
+    "playwright": {
+      "repository": "microsoft/playwright-cli",
+      "commit": "b21724888b8100b05ef8dee3a92f2bb03bf4dcde",
+      "archive": "https://codeload.github.com/microsoft/playwright-cli/zip/b21724888b8100b05ef8dee3a92f2bb03bf4dcde",
+      "sha256": "b86eb6146d7a36671846565540f07707e8904725dac3ab382dab60dffa2bd757",
+      "license": "Apache-2.0"
+    },
+    "library": {
+      "repository": "VoltAgent/awesome-design-md",
+      "commit": "fcc70284932276d085f01ef9f83edde90b1258cb",
+      "archive": "https://codeload.github.com/VoltAgent/awesome-design-md/zip/fcc70284932276d085f01ef9f83edde90b1258cb",
+      "sha256": "a52e47110e51ba50c11ae7fa27e9fb511ff1156e7139d064b730c53be5e4aca8",
+      "license": "MIT"
+    },
+    "three": {
+      "repository": "img2threejs/img2threejs",
+      "commit": "0c0c49bc168e648dbaf9c8c080474de0b3a941b6",
+      "archive": "https://codeload.github.com/img2threejs/img2threejs/zip/0c0c49bc168e648dbaf9c8c080474de0b3a941b6",
+      "sha256": "88c349839abc1a9c1573ea5b218bf5a8d36053bf760fc30b934c83597f98d5c8",
+      "license": "Apache-2.0"
+    }
+  },
+  "playwright_cli": {
+    "package": "@playwright/cli",
+    "version": "0.1.24"
+  }
+}

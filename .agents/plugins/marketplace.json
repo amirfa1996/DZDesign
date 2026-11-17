@@ -1,0 +1,23 @@
+{
+  "name": "digizorg",
+  "interface": {
+    "displayName": "DigiZorg Plugins"
+  },
+  "plugins": [
+    {
+      "name": "dzdesign",
+      "source": {
+        "source": "local",
+        "path": "./plugins/dzdesign"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE",
+        "products": [
+          "CODEX"
+        ]
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}
